@@ -1,0 +1,74 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background-color: #009286;
+}
+
+#container h5{
+	text-align:center;
+	font-size: 100;
+	color:#00645c;
+
+}
+
+#container{
+	width:800px;
+	margin:50px auto;
+	padding: 20px;
+	width:50%;
+}
+#container h2{
+	font-family: 'Montserrat', san-serif;
+	text-align:center;
+	color:#F2C000;
+}
+
+#quoteContainer{
+	width:75%;
+	background: #009286;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+  height:100px;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:170px;
+	margin-top: 10px;
+	border:2px solid #F2C000;
+	color:#F2C000;
+	font-family: inherit;
+	font-weight: bold;
+	padding:6px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#F2C000;
+	color: #009286;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: sans-serif;
+	color:#009286;
+	font-weight: 100;
+	text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
